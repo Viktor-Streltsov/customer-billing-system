@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Lato:wght@400;700&display=swap');
+
 body {
     box-sizing: border-box;
     font-size: 100%;
@@ -64,20 +66,14 @@ img {
     border-bottom: 1px solid #263057;
 }
 
-.btn-nav1, .btn-nav2 {
-    padding: 0.6rem 1.5rem;
-    background: #6984F0;
-    border: 1px solid #6984F0;
+.btn-nav2 {
+    padding: 0.6rem 2.6rem;
+    background: #4FD1C5;
+    border: 1px solid #4FD1C5;
     border-radius: 30px;
     color: #fff;
     font-size: 1rem;
     letter-spacing: 0.09em;
-}
-
-.btn-nav2 {
-    padding: 0.6rem 2.6rem;
-    background: #263057;
-    border: 1px solid #263057;
 }
 
 .btn-nav1:hover {
@@ -92,7 +88,7 @@ img {
 
 .conteiner-inet {
     max-width: 100%;
-    background: linear-gradient(136.49deg, #263057 25.34%, #1D1444 89.06%);
+    background: #4FD1C5;
     padding: 2.7rem 6.25rem;
 }
 
@@ -117,10 +113,15 @@ img {
 }
 
 .block-title h1 {
-    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: 400;
     font-size: 3.8rem;
     line-height: 3.3rem;
     color: #253058;
+    margin-bottom: 1.75rem;
 }
 
 .block-title p {
@@ -139,7 +140,7 @@ img {
     line-height: 1.8rem;
     text-align: center;
     color: #fff;
-    background: #6984F0;
+    background: #3FA79E;
     border: 1px solid #6984F0;
     box-shadow: 10px 10px 28px rgba(105, 132, 240, 0.2);
     border-radius: 30px;
@@ -147,11 +148,11 @@ img {
 
 .block-img {
     position: relative;
-    width: 53rem;
-    height: 31rem;
+    min-width: 53rem;
+    min-height: 31rem;
 }
 
-.gerl,.ellipse,.tv,.wifi,.vec1,.vec2,.vec3,.vec4,.what {
+.earth,.ellipse,.tv,.wifi,.vec1,.vec2,.vec3,.vec4,.what {
     position: absolute;
 }
 
@@ -161,52 +162,52 @@ img {
     right: 0;
 }
 
-.gerl {
+.earth {
     z-index: 4;
-    top: 20px;
-    right: 140px;
+    top: 135px;
+    right: 200px;
 }
 
 .vec1 {
     z-index: 1;
     top: -15px;
-    left: 230px;
+    left: 380px;
 }
 
 .vec2 {
     z-index: 3;
     top: 33px;
-    left: 195px;
+    left: 343px;
 }
 
 .vec3 {
     z-index: 2;
     top: 0px;
-    left: 175px;
+    left: 325px;
 }
 
 .wifi {
     z-index: 5;
     top: 100px;
-    left: 245px;
+    left: 395px;
 }
 
 .tv {
     z-index: 6;
     top: 200px;
-    right: 110px;
+    right: 100px;
 }
 
 .ellipse {
     z-index: 7;
-    top: 25px;
-    left: 315px;
+    top: 105px;
+    left: 455px;
 }
 
 .what {
     z-index: 8;
-    top: 295px;
-    right: 109px;
+    top: 300px;
+    right: 100px;
 }
 
 .conteiner-tarif {
@@ -312,7 +313,7 @@ img {
 }
 
 .cart-tarif-content li:hover div {
-    border: 1px solid #6984F0;
+    border: 1px solid #3FA79E;
 }
 
 .cart-tarif-content li:hover a{
@@ -325,12 +326,12 @@ img {
 
 .cart-tarif-content li:hover{
     color: #fff;
-    background: #253058;
+    background: #4ADFD2;
 }
 
 .btn-go {
-    background: #6984F0;
-    border: 1px solid #6984F0;
+    background: #3FA79E;
+    border: 1px solid #3FA79E;
     box-shadow: 10px 10px 28px rgba(105, 132, 240, 0.2);
     border-radius: 30px;
     padding: 0.3rem 2.8rem;
@@ -340,7 +341,7 @@ img {
 .all-tarif {
     text-align: center;
     margin: 4rem;
-    background: #6984F0;
+    background: #3FA79E;
     border-radius: 60px;
     color: #fff;
     padding: 0.6rem 5.3rem;
@@ -357,7 +358,7 @@ img {
     margin: 0 auto;
     margin-bottom: 1.25rem;
     padding: 1.7rem 4.8rem;
-    background: linear-gradient(92.37deg, #263057 29.38%, #1D1444 100.81%);
+    background: linear-gradient(92.37deg, #4ADFD2 29.38%, #4ADFD2 100.81%);
     box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.2);
     border-radius: 15px;
 }
@@ -376,6 +377,7 @@ img {
     padding-left: 1.6rem;
     margin-right: 1.2rem;
     border-radius: 5px;
+    border: 1px solid #fff;
 }
 
 .inputs1 input::placeholder{
@@ -387,12 +389,16 @@ img {
 
 .inputs1 a, .input2 a, .btn-compani a, .block-btn a{
     padding: 0.7rem 4rem;
-    background: #6984F0;
-    border: 1px solid #6984F0;
+    background: #3FA79E;
+    border: 1px solid #3FA79E;
     border-radius: 60px;
     color: #fff;
     font-size: 18px;
     line-height: 1.6rem;
+}
+
+.input2 a {
+    padding: 0.7rem 2rem;
 }
 
 .inputs1 a {
@@ -410,6 +416,7 @@ img {
     padding: 0.8rem 0rem;
     padding-left: 1rem;
     border-radius: 5px;
+    border: 1px solid #fff;
 }
 
 .street {
@@ -483,7 +490,7 @@ img {
 
 .footer {
     max-width: 100%;
-    background: linear-gradient(136.49deg, #263057 25.34%, #1D1444 89.06%);
+    background: #4FD1C5;
     padding: 6.25rem 6.25rem 10.5rem;
 }
 
@@ -508,8 +515,8 @@ img {
 
 .btn-footer-one, .btn-footer-two {
     padding: 0.7rem 4rem;
-    background: #6984F0;
-    border: 1px solid #6984F0;
+    background: #3FA79E;
+    border: 1px solid #3FA79E;
     border-radius: 60px;
     color: #fff;
     font-size: 18px;

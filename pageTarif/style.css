@@ -66,8 +66,8 @@ img {
 
 .btn-nav1, .btn-nav2 {
     padding: 0.6rem 1.5rem;
-    background: #6984F0;
-    border: 1px solid #6984F0;
+    background: #3FA79E;
+    border: 1px solid #3FA79E;
     border-radius: 30px;
     color: #fff;
     font-size: 1rem;
@@ -76,18 +76,18 @@ img {
 
 .btn-nav2 {
     padding: 0.6rem 2.6rem;
-    background: #263057;
-    border: 1px solid #263057;
+    background: #3FA79E;
+    border: 1px solid #3FA79E;
 }
 
 .btn-nav1:hover {
-    background: #263057;
-    border: 1px solid #263057;
+    background: rgb(100, 201, 125);
+    border: 1px solid rgb(100, 201, 125);
 }
 
 .btn-nav2:hover {
-    background: #6984F0;
-    border: 1px solid #6984F0;
+    background: rgb(100, 201, 125);
+    border: 1px solid rgb(100, 201, 125);
 }
 
 .conteiner-tarif {
@@ -154,8 +154,8 @@ img {
     margin: 0 auto;
     margin-bottom: 1.25rem;
     padding: 1.7rem 4.8rem;
-    background: linear-gradient(92.37deg, #263057 29.38%, #1D1444 100.81%);
-    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.2);
+    background: #4ADFD2;
+    box-shadow: 0px 4px 25px #4ADFD2;
     border-radius: 15px;
 }
 
@@ -174,12 +174,13 @@ img {
     margin-right: 1.2rem;
     margin-bottom: 2rem;
     border-radius: 5px;
+    border: 1px solid #4ADFD2;
 }
 
 .inputs input::placeholder{
     font-size: 1.1rem;
     line-height: 1.7rem;
-    color: #263057;
+    color: #9397AB;
 }
 
 .inputs {
@@ -188,13 +189,19 @@ img {
 
 .block-inputs a{
     padding: 0.7rem 4rem;
-    background: #6984F0;
-    border: 1px solid #6984F0;
+    background: #3FA79E;
+    border: 1px solid #3FA79E;
     border-radius: 60px;
     color: #fff;
     font-size: 18px;
     line-height: 1.6rem;
     padding: 0.7rem 3rem;
+    transition: all 0.5s;
+}
+
+.block-inputs a:hover {
+    background: rgb(100, 201, 125);
+    border: 1px solid rgb(100, 201, 125);
 }
 
 .block-inputs {
@@ -208,7 +215,7 @@ img {
 
 .footer {
     max-width: 100%;
-    background: linear-gradient(136.49deg, #263057 25.34%, #1D1444 89.06%);
+    background: #4FD1C5;
     padding: 6.25rem 6.25rem 10.5rem;
 }
 
@@ -233,22 +240,32 @@ img {
 
 .btn-footer-one, .btn-footer-two {
     padding: 0.7rem 4rem;
-    background: #6984F0;
-    border: 1px solid #6984F0;
+    background: #3FA79E;
+    border: 1px solid #3FA79E;
     border-radius: 60px;
-    color: #fff;
+    color: #263057;
     font-size: 18px;
     line-height: 1.6rem;
+    transition: all 0.5s;
+}
+
+.btn-footer-one:hover {
+    background: rgb(100, 201, 125);
+    border: 1px solid rgb(100, 201, 125);
+}
+
+.btn-footer-two:hover {
+    background: rgb(100, 201, 125);
+    border: 1px solid rgb(100, 201, 125);
 }
 
 .btn-footer-two {
     color: #263057;
     margin-left: 4rem;
-    background: #fff;
 }
 
-.btn-footer-two span {
-    color: #263057;
+.btn-footer-two span,.btn-footer-one span {
+    color: #fff;
 }
 
 .img-footer {
