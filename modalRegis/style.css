@@ -76,6 +76,7 @@ a {
 }
 
 .btn {
+    text-align: center;
     padding: 1rem 4rem;
     color: #fff;
     background: #3FA79E;
