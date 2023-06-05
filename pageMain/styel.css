@@ -66,7 +66,7 @@ img {
     border-bottom: 1px solid #263057;
 }
 
-.btn-nav2 {
+.btn-nav1, .btn-nav2 {
     padding: 0.6rem 2.6rem;
     background: #4FD1C5;
     border: 1px solid #4FD1C5;
@@ -77,8 +77,8 @@ img {
 }
 
 .btn-nav1:hover {
-    background: #263057;
-    border: 1px solid #263057;
+    background: #6984F0;
+    border: 1px solid #6984F0;
 }
 
 .btn-nav2:hover {
