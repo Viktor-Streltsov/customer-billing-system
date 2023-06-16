@@ -113,10 +113,10 @@ img {
     margin: 0 auto;
     background: #fff;
     border-radius: 20px;
-    padding-bottom: 4rem;
 }
 
 .cart-tarif {
+    padding-top: 1rem;
     text-align: center;
 }
 
@@ -142,7 +142,7 @@ img {
 }
 
 .nav-tarif-link li:hover{
-    border-bottom: 1px solid #263057;
+    border-bottom: 1px solid #3FA79E;
 }
 
 .cart-tarif-content {
@@ -158,7 +158,7 @@ img {
     display: flex;
     flex-direction: column;
     padding: 1.2rem 2.25rem;
-    border-radius: 30px;
+    border-radius: 100%;
     color: #263057;
     background: #fff;
     transition: background 0.5s;
@@ -206,7 +206,7 @@ img {
 
 .cart-tarif-content li:hover{
     color: #fff;
-    background: #253058;
+    background: #4ADFD2;
 }
 
 .btn-go {
@@ -218,12 +218,25 @@ img {
     color: #fff;
 }
 
-.conteiner-input {
-    max-width: 100%;
+.cart-tarif-content li:hover .btn-go {
+    background: #3FA79E;
 }
 
-.block1-input, .block2-input, .block3-input {
-    max-width: 68rem;
+.conteiner-input {
+    max-width: 100%;
+    padding-bottom: 3rem;
+}
+
+.block-help{
+    width: 80rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.block1-input, .block2-input {
+    max-width: 25rem;
     margin: 0 auto;
     margin-bottom: 1.25rem;
     padding: 1.7rem 4.8rem;
@@ -234,10 +247,18 @@ img {
 
 .head-input1, .head-input2{
     font-weight: 700;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     line-height: 3rem;
     color: #fff;
     margin-bottom: 1.5rem;
+}
+
+.inputs1, .input2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
 }
 
 .inputs1 input{
@@ -246,6 +267,7 @@ img {
     padding-left: 1.6rem;
     margin-right: 1.2rem;
     border-radius: 5px;
+    border: 1px solid #fff;
 }
 
 .inputs1 input::placeholder{
@@ -269,10 +291,13 @@ img {
     padding: 0.7rem 3rem;
 }
 
-.input2 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+.input2 input{
+    width: 23.6rem;
+    margin: 0rem 1.2rem;
+    padding: 0.8rem 0rem;
+    padding-left: 1rem;
+    border-radius: 5px;
+    border: 1px solid #fff;
 }
 
 .input2 input{
