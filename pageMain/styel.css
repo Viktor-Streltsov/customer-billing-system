@@ -30,7 +30,7 @@ img {
     background: #E0E0E0;
 }
 
-.conteiner-content {
+.conteiner_content {
     width: 100%;
     margin: 0 auto;
 }
@@ -46,14 +46,14 @@ img {
     margin: 0 auto;
 }
 
-.nav-content {
+.nav_content {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space_between;
     align-items: center;
 }
 
-.link-nav {
+.link_nav {
     font-size: 1.2rem;
     letter-spacing: 0.06em;
     padding-bottom: 0.19rem;
@@ -62,11 +62,11 @@ img {
     color: #263057;
 }
 
-.link-nav:hover {
+.link_nav:hover {
     border-bottom: 1px solid #263057;
 }
 
-.btn-nav {
+.btn_nav {
     display: grid;
     place-items: center;
     width: 10rem;
@@ -82,21 +82,21 @@ img {
     box-shadow: 14px 21px 6px 1px rgba(45, 76, 99, 0.2);
 }
 
-.btn-nav:hover {
+.btn_nav:hover {
     background: #6984F0;
     border: 1px solid #6984F0;
-    -webkit-box-shadow: 14px 21px 6px -3px rgba(45, 76, 99, 0.2);
-    -moz-box-shadow: 14px 21px 6px -3px rgba(45, 76, 99, 0.2);
-    box-shadow: 14px 21px 6px -3px rgba(45, 76, 99, 0.2);
+    -webkit-box-shadow: 14px 21px 6px _3px rgba(45, 76, 99, 0.2);
+    -moz-box-shadow: 14px 21px 6px _3px rgba(45, 76, 99, 0.2);
+    box-shadow: 14px 21px 6px _3px rgba(45, 76, 99, 0.2);
 }
 
-.conteiner-inet {
+.conteiner_inet {
     max-width: 100%;
     background: #4FD1C5;
     padding: 2.7rem 6.25rem;
 }
 
-.ander-block-inet {
+.ander-block_inet {
     max-width: 90rem;
     height: 30rem;
     margin: 0 auto;
@@ -112,13 +112,13 @@ img {
     clip-path: polygon(0 0, 100% 0, 94% 65%, 60% 79%, 51% 100%, 44% 80%, 2% 71%);
 }
 
-.block-title {
+.block_title {
     padding-left: 3.8rem;
     width: 35rem;
 }
 
-.block-title h1 {
-    font-family: 'Inter', sans-serif;
+.block_title h1 {
+    font-family: 'Inter', sans_serif;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -129,7 +129,7 @@ img {
     margin-bottom: 1.75rem;
 }
 
-.block-title p {
+.block_title p {
     font-weight: 400;
     font-size: 3rem;
     line-height: 3.3rem;
@@ -137,7 +137,7 @@ img {
     margin-bottom: 1.75rem;
 }
 
-.block-title a {
+.block_title a {
     margin-top: 1.75rem;
     padding: 0.6rem 1.6rem;
     font-weight: 700;
@@ -151,7 +151,7 @@ img {
     border-radius: 30px;
 }
 
-.block-img {
+.block_img {
     position: relative;
     min-width: 53rem;
     min-height: 31rem;
@@ -175,7 +175,7 @@ img {
 
 .vec1 {
     z-index: 1;
-    top: -15px;
+    top: _15px;
     left: 380px;
 }
 
@@ -215,13 +215,13 @@ img {
     right: 100px;
 }
 
-.conteiner-tarif {
+.conteiner_tarif {
     max-width: 100%;
     background: #E0E0E0;
     padding: 3.2rem 6.25rem;
 }
 
-.head-tarif {
+.head_tarif {
     text-align: center;
     margin-bottom: 1.6rem;
     font-size: 3rem;
@@ -229,11 +229,11 @@ img {
     color: #263057;
 }
 
-.head-tarif h2 {
+.head_tarif h2 {
     font-weight: 400;
 }
 
-.block-tarif {
+.block_tarif {
     max-width: 90rem;
     margin: 0 auto;
     border-radius: 20px;
@@ -244,19 +244,19 @@ img {
     text-align: center;
 }
 
-.nav-tarif {
+.nav_tarif {
     padding: 3.125rem 0rem;
 }
 
-.nav-tarif-link {
+.nav_tarif_link {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space_evenly;
     align-items: center;
     text-align: center;
 }
 
-.nav-tarif-link li {
+.nav_tarif_link li {
     font-weight: 400;
     font-size: 1.25rem;
     line-height: 1.75rem;
@@ -265,20 +265,20 @@ img {
     transition: border-bottom 0.5s;
 }
 
-.nav-tarif-link li:hover{
+.nav_tarif_link li:hover{
     border-bottom: 1px solid #263057;
 }
 
-.cart-tarif-content {
+.cart-tarif_content {
     margin: 2rem;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space_around;
     align-items: center;
 }
 
-.cart-tarif-content li{
+.cart-tarif_content li{
     width: 13rem;
     display: flex;
     flex-direction: column;
@@ -291,14 +291,14 @@ img {
     position: relative;
 }
 
-.cart-tarif-content li h3{
+.cart-tarif_content li h3{
     font-weight: 700;
     font-size: 1.9rem;
     line-height: 2.75rem;
     margin-bottom: 0.8rem;
 }
 
-.cart-tarif-content li p {
+.cart-tarif_content li p {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -309,7 +309,7 @@ img {
     margin: 1rem 0rem;
 }
 
-.more-tarif {
+.more_tarif {
     color: #263057;
     margin-bottom: 1rem;
 }
@@ -318,11 +318,11 @@ img {
     border: 1px solid rgba(38, 48, 87, 0.2);
 }
 
-.cart-tarif-content li:hover div {
+.cart-tarif_content li:hover div {
     border: 1px solid #3FA79E;
 }
 
-.cart-tarif-content li:hover a{
+.cart-tarif_content li:hover a{
     display: flex;
     flex-direction: row;
     column-gap: 0.4rem;
@@ -330,7 +330,7 @@ img {
     color: #fff;
 }
 
-.cart-tarif-content li:hover{
+.cart-tarif_content li:hover{
     color: #fff;
     background: #4ADFD2;
 }
@@ -343,11 +343,11 @@ img {
     padding: 0.3rem 2.8rem;
     color: #fff;
     position: absolute;
-    bottom: -15px;
+    bottom: _15px;
     left: 3.125rem;
 }
 
-.all-tarif {
+.all_tarif {
     text-align: center;
     margin: 4rem;
     background: #3FA79E;
@@ -357,12 +357,12 @@ img {
 }
 
 
-.conteiner-input {
+.conteiner_input {
     max-width: 100%;
     padding-bottom: 3rem;
 }
 
-.block-help{
+.block_help{
     width: 90rem;
     margin: 0 auto;
     display: flex;
@@ -370,17 +370,17 @@ img {
     flex-wrap: wrap;
 }
 
-.block1-input, .block2-input, .block3-input {
+.block1_input, .block2_input, .block3_input {
     max-width: 25rem;
     margin: 0 auto;
     margin-bottom: 1.25rem;
     padding: 1.7rem 4.8rem;
-    background: linear-gradient(92.37deg, #4ADFD2 29.38%, #4ADFD2 100.81%);
+    background: linear_gradient(92.37deg, #4ADFD2 29.38%, #4ADFD2 100.81%);
     box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.2);
     border-radius: 15px;
 }
 
-.head-input1, .head-input2{
+.head_input1, .head_input2{
     font-weight: 700;
     font-size: 1.2rem;
     line-height: 3rem;
@@ -412,7 +412,7 @@ img {
 
 }
 
-.inputs1 a, .input2 a, .btn-compani a, .block-btn a{
+.inputs1 a, .input2 a, .btn_compani a, .block_btn a{
     padding: 0.7rem 4rem;
     background: #3FA79E;
     border: 1px solid #3FA79E;
@@ -440,19 +440,19 @@ img {
 }
 
 
-.conteiner-docum {
+.conteiner_docum {
     max-width: 100%;
     background: #fff;
     padding-top: 5rem;
     padding-bottom: 5.6rem;
 }
 
-.block-docum {
+.block_docum {
     max-width: 77rem;
     margin: 0 auto;
 }
 
-.head-doc {
+.head_doc {
     text-align: center;
     font-weight: 700;
     font-size: 3rem;
@@ -463,25 +463,25 @@ img {
     margin-bottom: 3.25rem;
 }
 
-.block-docums-list {
+.block_docums_list {
     height: 9.5rem;
     background: #F1F2F4;
     border-radius: 15px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-evenly;
+    justify-content: space_evenly;
     align-items: center;
 }
 
-.block-docums-list li {
+.block_docums_list li {
     display: flex;
     justify-content: center;
     align-items: center;
     column-gap: 1rem;
 }
 
-.block-docums-list li p {
+.block_docums_list li p {
     font-size: 1rem;
     line-height: 1.6rem;
     color: #263057;
@@ -495,7 +495,7 @@ img {
     width: 5rem;
 }
 
-.block-btn {
+.block_btn {
     margin-top: 4.7rem;
     text-align: center;
 }
@@ -506,7 +506,7 @@ img {
     padding: 6.25rem 6.25rem 10.5rem;
 }
 
-.conteiner-footer {
+.conteiner_footer {
     max-width: 90rem;
     margin: 0 auto;
     display: flex;
@@ -515,17 +515,17 @@ img {
     column-gap: 5.9rem;
 }
 
-.conteiner-footer li a{
+.conteiner_footer li a{
     color: #fff;
 }
 
-.btns-footer {
+.btns_footer {
     display: flex;
     flex-direction: column;
     row-gap: 2rem;
 }
 
-.btn-footer {
+.btn_footer {
     padding: 0.7rem 4rem;
     background: #3FA79E;
     border: 1px solid #3FA79E;
@@ -534,18 +534,18 @@ img {
     line-height: 1.6rem;
 }
 
-.btn-footer-two span {
+.btn_footer_two span {
     color: #263057;
 }
 
-.btn-img-footer {
+.btn-img_footer {
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 1rem;
 }
 
-.btn-img-footer img{
+.btn-img_footer img{
     width: 2rem;
     height: 2rem;
 }
